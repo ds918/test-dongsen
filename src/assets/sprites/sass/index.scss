@@ -1,0 +1,11 @@
+// compass变量
+$my-icons-layout: diagonal;
+
+@import "compass/utilities/sprites";
+@import "my-icons/*.png";
+@include all-my-icons-sprites;
+
+$image: "/images/my-icons-s6852ec06e4.png";
+.my-icons-bg {
+  background-size: image-width($image) image-height($image);
+}

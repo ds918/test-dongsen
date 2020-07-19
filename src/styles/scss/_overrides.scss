@@ -1,0 +1,13 @@
+// 全局的修改某个样式
+.van-picker-column {
+  font-size: 28px !important;
+}
+.van-picker__toolbar {
+  height: 64px !important;
+}
+.van-picker__cancel,
+.van-picker__confirm,
+.van-picker__title {
+  font-size: 28px !important;
+  line-height: 1 !important;
+}

@@ -1,0 +1,23 @@
+// 自定义全局变量
+@mixin fontStyle {
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+}
+// vuetify全局变量
+// 提示框样式
+$snackbar-content-font-size: 28px;
+$snackbar-content-min-height: 80px;
+$snackbar-wrapper-min-width: 96%;
+$snackbar-content-line-height: 1.5;
+$snackbar-border-radius: 8px;
+// 底部导航栏样式
+$bottom-nav-btn-font-size: 20px;
+// 时间线样式
+$timeline-dot-regular-size: 56px;
+$timeline-inner-dot-regular-size: 56px;
+$timeline-divider-width: 160px;
+// 骨架装样式
+$skeleton-loader-item-padding: 0;
+$skeleton-loader-list-item-height: 28px;
